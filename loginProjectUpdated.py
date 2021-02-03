@@ -1,6 +1,7 @@
 # This program displays a simple login system 
 import random
 import re
+import getpass
 # import string
 # import sys
 
@@ -101,8 +102,8 @@ class Login:
                 while flagPassword:
                     print(
                         "Your password must contain at least 8 characters and have a capital letter and a '$' symbol in it:")
-                    self._passWord = input("Password:")
-                    passWord2 = input("Please re-enter your password:")
+                    self._passWord = getpass.getpass("Password:")
+                    passWord2 = getpass.getpass("Please re-enter your password:")
                     pLetterCount = 0
 
                     for letter in self._passWord:
