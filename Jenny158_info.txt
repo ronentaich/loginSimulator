@@ -1,5 +1,0 @@
-First Name: Jenny
-Last Name: Peters
-Email Address: jenny@gmail.com
-Username: Jenny158
-Password: Leopard$Cat

@@ -1,5 +1,0 @@
-First Name: Peter
-Last Name: Smith
-Email Address: petersmith@yahoo.com
-Username: Peter790
-Password: Gorilla$Cash
