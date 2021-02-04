@@ -28,9 +28,6 @@ class Login:
         print("D: Quit")
         print("=============================")
 
-    def checkEmail(self):
-        return re.match(r'[\w-]{1,20}@\w{2,20}\.\w{2,3}$', self)
-
     def getInputs(self):
 
         flagOverview = True
@@ -153,7 +150,7 @@ class Login:
                     if self._userNameLogin == 'Q':
                         break
 
-                    self._passwordLogin = input("Please enter your password:")
+                    self._passwordLogin = getpass.getpass("Please enter your password:")
 
                     if self._userNameLogin in self._userDict and self._passwordLogin == self._userDict[
                         self._userNameLogin]:
